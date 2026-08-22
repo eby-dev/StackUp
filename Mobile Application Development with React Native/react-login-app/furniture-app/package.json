@@ -43,6 +43,8 @@
     "tar": "^6.2.1",
     "shell-quote": "^1.7.3",
     "image-size": "^2.0.2",
-    "xcode": "^3.0.1"
+    "xcode": "^3.0.1",
+    "@expo/metro": "^56.0.2",
+    "js-yaml": "^5.3.0"
   }
 }
