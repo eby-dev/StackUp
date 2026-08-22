@@ -1,4 +1,6 @@
-const { ApolloServer, gql } = require("apollo-server");
+const { ApolloServer } = require("@apollo/server");
+const { startStandaloneServer } = require("@apollo/server/standalone");
+
 // Create movies array
 const movies = [
   {
@@ -8,7 +10,7 @@ const movies = [
 ];
 
 // Initialize type definitions
-const typeDefs = gql`
+const typeDefs = `#graphql
   type Movie {
     movieTitle: String!
     dateOfRelease: String!
@@ -43,6 +45,6 @@ const server = new ApolloServer({
   resolvers,
 });
 
-server
-  .listen({ port: 8080 })
-  .then(({ url }) => console.log(`GraphQL server running at ${url}`));
+startStandaloneServer(server, { listen: { port: 8080 } }).then(({ url }) =>
+  console.log(`GraphQL server running at ${url}`)
+);
