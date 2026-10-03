@@ -1,6 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, cloneElement } from "react";
 import { Header } from "./components/Header";
 import Draggable from "react-draggable";
+
+// Pass a ref to Draggable so it doesn't fall back to the deprecated findDOMNode.
+function DraggableCard({ children, ...props }) {
+  const nodeRef = useRef(null);
+  return (
+    <Draggable nodeRef={nodeRef} {...props}>
+      {cloneElement(children, { ref: nodeRef })}
+    </Draggable>
+  );
+}
+
 export default function App() {
   const [board, setBoard] = useState([]);
 
@@ -100,7 +111,7 @@ export default function App() {
               </button>
               {list.cards.map((card) => {
                 return (
-                  <Draggable
+                  <DraggableCard
                     key={card.id}
                     onStop={(e) => {
                       let allLists =
@@ -204,7 +215,7 @@ export default function App() {
                         }}
                       />
                     </div>
-                  </Draggable>
+                  </DraggableCard>
                 );
               })}
             </div>
