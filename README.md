@@ -16,17 +16,17 @@ StackUp enables developers to level up, grow and connect with a global Dev commu
 <details>
   <summary><a href="https://app.stackup.dev/campaign_page/web-development-with-react-ii">Web Development with React II</a></summary>
 
-  - [x] [Calculator App (React)](Web%20Development%20with%20React%20II/calculator-app) - [aabuhasan-calculator-app](https://aabuhasan-calculator-app.web.app)
-  - [x] [Multiple Stopwatches (React)](Web%20Development%20with%20React%20II/stopwatch-app) - [aabuhasan-stopwatch-app](https://aabuhasan-stopwatch-app.web.app)
-  - [x] [Planner App (React)](Web%20Development%20with%20React%20II/planner-app) - [aabuhasan-planner-app](https://aabuhasan-planner-app.web.app)
+  - [x] [Calculator App (React)](Web%20Development%20with%20React%20II/calculator-app) - [aabuhasan-calculator-app](https://aabuhasan-calculator.web.app)
+  - [x] [Multiple Stopwatches (React)](Web%20Development%20with%20React%20II/stopwatch-app) - [aabuhasan-stopwatch-app](https://aabuhasan-stopwatch.web.app)
+  - [x] [Planner App (React)](Web%20Development%20with%20React%20II/planner-app) - [aabuhasan-planner-app](https://aabuhasan-planner.web.app)
 </details>
 
 <details>
   <summary><a href="https://app.stackup.dev/campaign_page/web-development-with-react-i">Web Development with React I</a></summary>
 
-  - [x] [Photo Gallery App](Web%20Development%20with%20React%20I/photo-gallery-app) - [aabuhasan-photo-gallery-app](https://aabuhasan-photo-gallery-app.web.app) 
-  - [x] [Kanban App](Web%20Development%20with%20React%20I/kanban-app) - [aabuhasan-kanban-app](https://aabuhasan-kanban-app.web.app)
-  - [x] [Multimedia Application](Web%20Development%20with%20React%20I/multimedia-app) - [aabuhasan-multimedia-app](https://aabuhasan-multimedia-app.web.app)
+  - [x] [Photo Gallery App](Web%20Development%20with%20React%20I/photo-gallery-app) - [aabuhasan-photo-gallery-app](https://aabuhasan-photo-gallery.web.app) 
+  - [x] [Kanban App](Web%20Development%20with%20React%20I/kanban-app) - [aabuhasan-kanban-app](https://aabuhasan-kanban.web.app)
+  - [x] [Multimedia Application](Web%20Development%20with%20React%20I/multimedia-app) - [aabuhasan-multimedia-app](https://aabuhasan-multimedia.web.app)
 </details>
 
 <details>
