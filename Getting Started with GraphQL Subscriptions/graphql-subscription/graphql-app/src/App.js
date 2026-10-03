@@ -36,8 +36,8 @@ function DisplayMovies() {
 
   return (
     <div className="movies">
-      {data.queryMovies.map(({ id, movieTitle, dateOfRelease }) => (
-        <div key={id}>
+      {data.queryMovies.map(({ movieTitle, dateOfRelease }, index) => (
+        <div key={index}>
           <ul>
             <li>Name: {movieTitle}</li>
             <li>Release Date: {dateOfRelease}</li>
@@ -106,8 +106,8 @@ function SubscriptionMovies() {
 
   return (
     <div className="movies">
-      {data.newMovie.map(({ id, movieTitle, dateOfRelease }) => (
-        <div key={id}>
+      {data.newMovie.map(({ movieTitle, dateOfRelease }, index) => (
+        <div key={index}>
           <ul>
             <li>Name: {movieTitle}</li>
             <li>Release Date: {dateOfRelease}</li>
