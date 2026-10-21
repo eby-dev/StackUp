@@ -20,7 +20,7 @@
     "babel-jest": "^30.5.2",
     "jest": "^30.5.2",
     "jest-environment-jsdom": "^30.5.2",
-    "vite": "^6.0.7"
+    "vite": "^6.4.4"
   },
   "scripts": {
     "start": "vite",
